@@ -1,0 +1,39 @@
+/* Type */
+
+body {
+	background-color: indigo;
+	color: gold;
+	font-family: courier;
+	line-height: 1.5;
+    font-size: 5em;
+    font-style: italic;
+}
+.new-color {
+	color: cyan;
+}
+.other-font {
+	font-family: sans-serif;
+}
+.awful {
+	position: absolute;
+    top: 5em;
+    transform: skewX(35deg) scaleY(10) ;
+    font-family: bodoni;
+    font-style: bold;
+    opacity: .75;
+    color: yellow;
+    filter: blur(30px)
+}
+.oof {
+	text-shadow: 10px 30px #7EFC1C;
+}
+.terrible {
+	position: absolute;
+    top: 10em;
+    transform: skewX(-75deg) scaleY(3) ;
+    font-family: times-new-roman;
+    font-style: italic;
+    opacity: .75;
+    color: magenta;
+    filter: blur(12px)
+}
