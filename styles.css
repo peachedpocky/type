@@ -1,11 +1,11 @@
 /* Type */
 
 body {
-	background-color: indigo;
+	background-color: black;
 	color: gold;
 	font-family: courier;
 	line-height: 1.5;
-    font-size: 5em;
+    font-size: 1em;
     font-style: italic;
 }
 .new-color {
@@ -17,23 +17,23 @@ body {
 .awful {
 	position: absolute;
     top: 5em;
-    transform: skewX(35deg) scaleY(10) ;
+    transform: skewX(35deg) scaleY(12) ;
     font-family: bodoni;
     font-style: bold;
-    opacity: .75;
+    opacity: .85;
     color: yellow;
-    filter: blur(30px)
+    filter: blur(20px)
 }
 .oof {
 	text-shadow: 10px 30px #7EFC1C;
 }
 .terrible {
 	position: absolute;
-    top: 10em;
+    top: 7em;
     transform: skewX(-75deg) scaleY(3) ;
     font-family: times-new-roman;
     font-style: italic;
-    opacity: .75;
+    opacity: 1;
     color: magenta;
     filter: blur(12px)
 }
